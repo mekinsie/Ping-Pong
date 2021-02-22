@@ -1,4 +1,4 @@
-input_number = 3
+input_number = 5
 def ping_pong(input_number)
   x = 0
   ping_pong_array = []
