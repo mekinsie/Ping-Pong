@@ -4,7 +4,11 @@ def ping_pong(input_number)
   ping_pong_array = []
   while(x < input_number)
     x += 1
-    ping_pong_array.push(x)
+    if(x % 3 == 0)
+      ping_pong_array.push('ping')
+    else
+      ping_pong_array.push(x)
+    end
   end
   ping_pong_array
 end
